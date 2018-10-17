@@ -10,3 +10,7 @@ Manual tagging on the recordings of Korean drama scripts (# instances: 7,000)
 <img src="https://github.com/warnikchow/korinto/blob/master/fig2.png" width="500">
 
 ## System Description
+### Feature (last 300 frames)
+* mel spectrogram (128dim) + rmse (1dim)
+### Architecture 
+* CNN + BiLSTM-Self attention (concatenation)

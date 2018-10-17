@@ -7,7 +7,6 @@ librosa, Keras (TensorFlow), Numpy
 ## Data annotation
 Manual tagging on the recordings of Korean drama scripts (# instances: 7,000)
 ### Classification into five categories
-![alt text](https://github.com/warnikchow/korinto/blob/master/fig2.png) <img src="image" width="40%">
-<img src="https://github.com/warnikchow/korinto/blob/master/fig2.png" width="200" title="Github Logo">
+<img src="https://github.com/warnikchow/korinto/blob/master/fig2.png" width="500">
 
 ## System Description

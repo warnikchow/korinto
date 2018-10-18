@@ -11,6 +11,6 @@ Manual tagging on the recordings of Korean drama scripts (# instances: 7,000)
 
 ## System Description
 ### Feature (last 300 frames)
-* mel spectrogram (128dim) + rmse (1dim)
-### Architecture 
+* mel spectrogram (128dim) + RMSE (1dim) (vector augmentation)
+### Architecture
 * CNN + BiLSTM-Self attention (concatenation)

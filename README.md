@@ -17,11 +17,11 @@ Manual tagging on the recordings of Korean drama scripts (# instances: 7,000)
 
 ### Architecture
 * CNN + BiLSTM-Self attention (concatenation)
-* CNN
-Conv (5 by 5, 32 filters, ReLU)  - BN - MaxPool (2 by 2) - Dropout (0.3) >>
-Conv (5 by 5, 64 filters, ReLU)  - BN - MaxPool (2 by 2) - Dropout (0.3) >>
-Conv (3 by 3, 128 filters, ReLU) - BN - MaxPool (2 by 2) - Dropout (0.3) >>
-Conv (3 by 3, 32 filters, ReLU)  - BN - MaxPool (2 by 1) >>
+* CNN<br/>
+Conv (5 by 5, 32 filters, ReLU)  - BN - MaxPool (2 by 2) - Dropout (0.3) >><br/>
+Conv (5 by 5, 64 filters, ReLU)  - BN - MaxPool (2 by 2) - Dropout (0.3) >><br/>
+Conv (3 by 3, 128 filters, ReLU) - BN - MaxPool (2 by 2) - Dropout (0.3) >><br/>
+Conv (3 by 3, 32 filters, ReLU)  - BN - MaxPool (2 by 1) >><br/>
 Conv (3 by 3, 32 filters, ReLU)  - BN - MaxPool (2 by 1) >> Flatten
 * BiLSTM-Self attention
 

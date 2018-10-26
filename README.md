@@ -15,8 +15,8 @@ Manual tagging on the recordings of Korean drama scripts (# instances: 7,000)
 * FFT window: 2,048
 * Hop length: 512
 
-### Architecture : (CNN + BiLSTM-Self attention) concatenation >> MLP
 <img src="https://github.com/warnikchow/korinto/blob/master/fig3.png" width="700">
+### Architecture : (CNN + BiLSTM-Self attention) concatenation >> MLP
 #### CNN
 Conv (5 by 5, 32 filters, ReLU) - BN - MaxPool (2 by 2) - Dropout (0.3) >><br/>
 Conv (5 by 5, 64 filters, ReLU) - BN - MaxPool (2 by 2) - Dropout (0.3) >><br/>

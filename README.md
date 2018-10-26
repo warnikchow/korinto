@@ -12,7 +12,8 @@ Manual tagging on the recordings of Korean drama scripts (# instances: 7,000)
 ## System Description
 <img src="https://github.com/warnikchow/korinto/blob/master/fig1.png" width="700"><br/>
 <pre><code> from dist import pred_into </code></pre>
-* Given the filename input, the sentence-final intonation label (High rise: 0, Low rise: 1, Fall-rise: 2, Level: 3, Fall: 4) is inferred as an output
+* Given the filename input, the sentence-final intonation label is inferred as an output.
+* High rise: 0, Low rise: 1, Fall-rise: 2, Level: 3, Fall: 4
 
 ### Feature (last 300 frames)
 * mel spectrogram (128dim) + RMSE (1dim) (vector augmentation) >> (300 x 129)

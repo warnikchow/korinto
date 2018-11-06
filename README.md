@@ -37,3 +37,16 @@ Attention vector x BiLSTM hidden layer sequence (column-wisely) >> Weighted hidd
 Weighted hidden layers >> Summation (64) >> Concatenation with CNN output (128) 
 #### MLP
 (CNN + BiLSTM Self-attention) >> Dense(64, ReLU) - Dropout (0.3) >> Dense(64, ReLU) - Dropout (0.3) >> Softmax(5)
+
+### Citation
+* Cite THIS repository for the usage of the toolkit.
+```
+@article{cho2018korinto,
+  title={KorInto: 5-class sentence-final intonation classifier for a syllable-timed and head-final language (Korean)},
+  author={Cho, Won Ik},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/warnikchow/korinto}}
+  year={2018}
+}
+```

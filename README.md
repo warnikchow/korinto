@@ -10,7 +10,7 @@ Manual tagging on the recordings of Korean drama scripts (# instances: 7,000)
 <img src="https://github.com/warnikchow/korinto/blob/master/fig2.png" width="500">
 
 ## System Description
-<pre><code> from dist import pred_into </code></pre>
+<pre><code> from dist import pred_emo </code></pre>
 <img src="https://github.com/warnikchow/korinto/blob/master/fig1.png" width="700"><br/>
 * Given the filename input, the sentence-final intonation label is inferred as an output.
 * High rise: 0, Low rise: 1, Fall-rise: 2, Level: 3, Fall: 4
